@@ -10,7 +10,6 @@ En esta práctica se analiza el riesgo de navegar por una red Wi-Fi pública uti
 
 NeverSSL utiliza HTTP sin cifrado, por lo que la comunicación entre el navegador y el servidor puede ser observada con mayor facilidad por terceros que tengan acceso al tráfico de red.
 
-
 ## Evidencia observada
 
 Para realizar la exploración se abrió el sitio en el navegador y se utilizaron las herramientas de desarrollador mediante **F12 > Network / Red**.
@@ -19,8 +18,10 @@ Al recargar la página se pudieron observar los siguientes datos:
 
 - **Protocolo:** HTTP
 - **Método:** GET
-- **Host:** neverssl.com
-- **URL solicitada:** http://neverssl.com
+- **Host observado:** beautifulslowmajesticchart.neverssl.com
+- **URL solicitada:** http://beautifulslowmajesticchart.neverssl.com/online/
+- **Código de respuesta:** 200 OK
+- **Dirección remota:** 34.223.124.45:80
 - **Headers:** visibles en la solicitud
 - **User-Agent:** visible dentro de los encabezados enviados por el navegador
 
