@@ -10,7 +10,6 @@ En esta práctica se analiza el riesgo de navegar por una red Wi-Fi pública uti
 
 NeverSSL utiliza HTTP sin cifrado, por lo que la comunicación entre el navegador y el servidor puede ser observada con mayor facilidad por terceros que tengan acceso al tráfico de red.
 
-> Nota: si la rúbrica exige que el README identifique literalmente `http://ejemplo-inseguro.com`, conviene reemplazar este valor por el host exacto solicitado por el docente. En esta práctica se utilizó `http://neverssl.com`, que es el sitio indicado en las instrucciones.
 
 ## Evidencia observada
 
@@ -27,7 +26,7 @@ Al recargar la página se pudieron observar los siguientes datos:
 
 ### Captura de evidencia
 
-_Insertar aquí una captura de la pestaña Network del navegador donde se observe la solicitud HTTP realizada a neverssl.com._
+![Solicitud HTTP observada en Network](imagenes/captura-network.png)
 
 ## Análisis técnico
 
